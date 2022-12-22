@@ -1,0 +1,29 @@
+.imgContact {
+    background-image: url(../../assets/contact.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.intro {
+    height: 60%;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.content {
+    margin-top: 50vh;
+}
+
+.colIcon {
+    margin: 2rem;
+}
+
+.icon {
+    margin-bottom: 2rem;
+}
