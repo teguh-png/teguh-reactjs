@@ -54,7 +54,13 @@ class LifeCycle extends React.Component {
           handleSearchInputChange={this.handleSearchInputChange}
           handleSearchSubmit={this.handleSearchSubmit}
         />
+        {this.state.articles.length > 0 ? (
           <NewsList articles={this.state.articles} />
+        ) : (
+          <div>
+            <h2 style={{marginLeft: '80px'}}>No articles to display</h2>
+          </div>
+        )}
       </div>
     );
   }
