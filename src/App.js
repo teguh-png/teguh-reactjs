@@ -1,10 +1,10 @@
-import Form from "./Form";
+import LifeCycle from "./LifeCycle";
 
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+    <LifeCycle />
     </div>
   );
 }

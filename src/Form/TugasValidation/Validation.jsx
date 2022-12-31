@@ -86,7 +86,7 @@ class Validation extends React.Component {
             border: '1px solid black',
             padding: '10px',
             display: 'grid',
-        placeItems: 'center'
+            placeItems: 'center'
         }
         return (
             <div style={style}>
