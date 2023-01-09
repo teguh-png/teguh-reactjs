@@ -1,10 +1,10 @@
-import LifeCycle from "./LifeCycle";
+import Redux from "./Redux";
 
 
 function App() {
   return (
     <div className="App">
-    <LifeCycle />
+    <Redux />
     </div>
   );
 }
